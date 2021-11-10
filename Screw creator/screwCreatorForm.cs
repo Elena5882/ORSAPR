@@ -31,5 +31,13 @@ namespace Screw_creator
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Диаметр D1 не должен быть больше диаметра D и меньше диаметра d. Исправьте поля, отмеченные красным",
+                "Ошибка",
+                MessageBoxButtons.OK,
+                MessageBoxIcon.Error);
+        }
     }
 }
